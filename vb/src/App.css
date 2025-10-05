@@ -1,0 +1,29 @@
+/* @import-normalize; bring in normalize.css styles */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+html {
+background-color: #001440;
+}
+body {
+  
+    background: linear-gradient(0deg,#001440, rgba(4, 4, 4, 0.673), black, rgba(4, 4, 4, 0.474), #001440);
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+
+  margin: 0;
+  font-family: Comfortaa, sans-serif;
+
+}
+
+h2 {
+display: flex;
+justify-content: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
